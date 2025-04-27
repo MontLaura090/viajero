@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="genera_matriz.php" method="POST">
+    <input type="number" name="ciudades" placeholder="Número de ciudades" id="num_ciudades" min="2" max="100" required>
+    <input type="number" name="cosmin" placeholder="Costo mínimo" id="cosmin" min="1" max="40000" required>
+    <input type="number" name="cosmax" placeholder="Costo máximo"id="cosmax" min="1" max="40000" required>
+    <input type="submit" value="Generar tabla">
+    <input type="reset">
+    </form>
+</body>
+</html> 
